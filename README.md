@@ -119,16 +119,16 @@ A API possui os seguintes endpoints:
 - [X] Guardar as modificações com `git commit -m "documentado os DTOs"`
 
 ### 6️⃣ Documentação do Endpoint Raiz
-- [ ] Abrir o arquivo `src/app.controller.ts`
-- [ ] Importar decorators do `@nestjs/swagger`:
+- [X] Abrir o arquivo `src/app.controller.ts`
+- [X] Importar decorators do `@nestjs/swagger`:
   - `@ApiTags`
   - `@ApiOperation`
   - `@ApiResponse`
-- [ ] Adicionar `@ApiTags('root')` no controller
-- [ ] Documentar o endpoint `GET /`:
+- [X] Adicionar `@ApiTags('root')` no controller
+- [X] Documentar o endpoint `GET /`:
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiResponse()` para status 200 com description
-- [ ] Guardar as modificações com `git commit -m "documentado o endpoint raiz"`
+- [X] Guardar as modificações com `git commit -m "documentado o endpoint raiz"`
 
 ### 7️⃣ Documentação dos Endpoints de Tarefas - Listar Todas
 - [ ] Abrir o arquivo `src/tasks/tasks.controller.ts`
