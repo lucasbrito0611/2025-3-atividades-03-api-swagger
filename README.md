@@ -131,32 +131,32 @@ A API possui os seguintes endpoints:
 - [X] Guardar as modificações com `git commit -m "documentado o endpoint raiz"`
 
 ### 7️⃣ Documentação dos Endpoints de Tarefas - Listar Todas
-- [ ] Abrir o arquivo `src/tasks/tasks.controller.ts`
-- [ ] Importar decorators do `@nestjs/swagger`:
+- [X] Abrir o arquivo `src/tasks/tasks.controller.ts`
+- [X] Importar decorators do `@nestjs/swagger`:
   - `@ApiTags`
   - `@ApiOperation`
   - `@ApiResponse`
-- [ ] Adicionar `@ApiTags('tasks')` no controller
-- [ ] Documentar o endpoint `GET /tasks` (método `findAll`):
+- [X] Adicionar `@ApiTags('tasks')` no controller
+- [X] Documentar o endpoint `GET /tasks` (método `findAll`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiResponse()` para status 200 com description e type
 
 ### 8️⃣ Documentação dos Endpoints de Tarefas - Buscar por ID
-- [ ] Documentar o endpoint `GET /tasks/:id` (método `findOne`):
+- [X] Documentar o endpoint `GET /tasks/:id` (método `findOne`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiParam()` para o parâmetro `id`
   - Adicionar `@ApiResponse()` para status 200 com description e type
   - Adicionar `@ApiResponse()` para status 404 com description
 
 ### 9️⃣ Documentação dos Endpoints de Tarefas - Criar
-- [ ] Documentar o endpoint `POST /tasks` (método `create`):
+- [X] Documentar o endpoint `POST /tasks` (método `create`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiBody()` com type CreateTaskDto
   - Adicionar `@ApiResponse()` para status 201 com description e type
   - Adicionar `@ApiResponse()` para status 400 com description
 
 ### 🔟 Documentação dos Endpoints de Tarefas - Atualizar
-- [ ] Documentar o endpoint `PUT /tasks/:id` (método `update`):
+- [X] Documentar o endpoint `PUT /tasks/:id` (método `update`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiParam()` para o parâmetro `id`
   - Adicionar `@ApiBody()` com type UpdateTaskDto
@@ -165,12 +165,12 @@ A API possui os seguintes endpoints:
   - Adicionar `@ApiResponse()` para status 400 com description
 
 ### 1️⃣1️⃣ Documentação dos Endpoints de Tarefas - Deletar
-- [ ] Documentar o endpoint `DELETE /tasks/:id` (método `remove`):
+- [X] Documentar o endpoint `DELETE /tasks/:id` (método `remove`):
   - Adicionar `@ApiOperation()` com summary e description
   - Adicionar `@ApiParam()` para o parâmetro `id`
   - Adicionar `@ApiResponse()` para status 204 com description
   - Adicionar `@ApiResponse()` para status 404 com description
-- [ ] Guardar as modificações com `git commit -m "documentado o endpoint de tarefas(\tasks)"`
+- [X] Guardar as modificações com `git commit -m "documentado o endpoint de tarefas(\tasks)"`
 
 ### 1️⃣2️⃣ Testes e Validação Final
 - [ ] Executar `npm run start:dev` e acessar o Swagger UI
