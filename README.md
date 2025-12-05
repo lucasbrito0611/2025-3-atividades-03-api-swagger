@@ -77,22 +77,22 @@ A API possui os seguintes endpoints:
 - [X] Guardar as modificações com `git commit -m "configurado o ambiente swagger"`
 
 ### 3️⃣ Documentação da Entidade Task
-- [ ] Abrir o arquivo `src/tasks/task.entity.ts`
-- [ ] Importar o decorator `@ApiProperty` do `@nestjs/swagger`
-- [ ] Adicionar `@ApiProperty()` para o campo `id`:
+- [X] Abrir o arquivo `src/tasks/task.entity.ts`
+- [X] Importar o decorator `@ApiProperty` do `@nestjs/swagger`
+- [X] Adicionar `@ApiProperty()` para o campo `id`:
   - Exemplo: description, type, etc.
-- [ ] Adicionar `@ApiProperty()` para o campo `title`:
+- [X] Adicionar `@ApiProperty()` para o campo `title`:
   - Adicionar description, example
-- [ ] Adicionar `@ApiProperty()` para o campo `description`:
+- [X] Adicionar `@ApiProperty()` para o campo `description`:
   - Adicionar description, example
-- [ ] Adicionar `@ApiProperty()` para o campo `status`:
+- [X] Adicionar `@ApiProperty()` para o campo `status`:
   - Adicionar enum, description, default, example
-- [ ] Adicionar `@ApiProperty()` para o campo `createdAt`:
+- [X] Adicionar `@ApiProperty()` para o campo `createdAt`:
   - Adicionar description, type
-- [ ] Adicionar `@ApiProperty()` para o campo `updatedAt`:
+- [X] Adicionar `@ApiProperty()` para o campo `updatedAt`:
   - Adicionar description, type
-- [ ] Verificar a documentação da entidade no Swagger UI
-- [ ] Guardar as modificações com `git commit -m "documentado as entidades"`
+- [X] Verificar a documentação da entidade no Swagger UI
+- [X] Guardar as modificações com `git commit -m "documentado as entidades"`
 
 ### 4️⃣ Documentação do CreateTaskDto
 - [ ] Abrir o arquivo `src/tasks/dto/create-task.dto.ts`
