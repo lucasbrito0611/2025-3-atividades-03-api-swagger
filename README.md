@@ -55,26 +55,26 @@ A API possui os seguintes endpoints:
 ## ✅ Atividades (Checklist)
 
 ### 1️⃣ Preparação do Ambiente
-- [ ] **Fazer fork deste repositório** para sua conta do GitHub
-- [ ] Clonar o fork para sua máquina local
-- [ ] Instalar as dependências com `npm install`
-- [ ] Verificar se o projeto está funcionando com `npm run start:dev`
-- [ ] Acessar a API em `http://localhost:3000` e verificar o endpoint raiz
+- [X] **Fazer fork deste repositório** para sua conta do GitHub
+- [X] Clonar o fork para sua máquina local
+- [X] Instalar as dependências com `npm install`
+- [X] Verificar se o projeto está funcionando com `npm run start:dev`
+- [X] Acessar a API em `http://localhost:3000` e verificar o endpoint raiz
 
 ### 2️⃣ Configuração do Swagger
-- [ ] Abrir o arquivo `src/main.ts`
-- [ ] Importar os módulos necessários do `@nestjs/swagger`:
+- [X] Abrir o arquivo `src/main.ts`
+- [X] Importar os módulos necessários do `@nestjs/swagger`:
   - `SwaggerModule`
   - `DocumentBuilder`
-- [ ] Criar a configuração do Swagger usando `DocumentBuilder`:
+- [X] Criar a configuração do Swagger usando `DocumentBuilder`:
   - Definir título: "API de Tarefas (TODO List)"
   - Definir descrição: "API para gerenciamento de tarefas da turma Infoweb 2025"
   - Definir versão: "1.0"
   - Adicionar tag: "tasks"
-- [ ] Criar o documento Swagger com `SwaggerModule.createDocument()`
-- [ ] Configurar a rota de acesso ao Swagger UI (sugestão: `/api-docs`)
-- [ ] Testar o acesso ao Swagger UI em `http://localhost:3000/api-docs`
-- [ ] Guardar as modificações com `git commit -m "configurado o ambiente swagger"`
+- [X] Criar o documento Swagger com `SwaggerModule.createDocument()`
+- [X] Configurar a rota de acesso ao Swagger UI (sugestão: `/api-docs`)
+- [X] Testar o acesso ao Swagger UI em `http://localhost:3000/api-docs`
+- [X] Guardar as modificações com `git commit -m "configurado o ambiente swagger"`
 
 ### 3️⃣ Documentação da Entidade Task
 - [ ] Abrir o arquivo `src/tasks/task.entity.ts`
