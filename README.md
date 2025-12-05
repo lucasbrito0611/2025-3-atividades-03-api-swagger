@@ -173,24 +173,24 @@ A API possui os seguintes endpoints:
 - [X] Guardar as modificações com `git commit -m "documentado o endpoint de tarefas(\tasks)"`
 
 ### 1️⃣2️⃣ Testes e Validação Final
-- [ ] Executar `npm run start:dev` e acessar o Swagger UI
-- [ ] Verificar se todos os endpoints estão documentados
-- [ ] Verificar se todos os schemas (DTOs e entidades) estão documentados
-- [ ] Testar cada endpoint através do Swagger UI:
+- [X] Executar `npm run start:dev` e acessar o Swagger UI
+- [X] Verificar se todos os endpoints estão documentados
+- [X] Verificar se todos os schemas (DTOs e entidades) estão documentados
+- [X] Testar cada endpoint através do Swagger UI:
   - Testar GET / (endpoint raiz)
   - Testar POST /tasks (criar tarefa)
   - Testar GET /tasks (listar todas)
   - Testar GET /tasks/:id (buscar por ID)
   - Testar PUT /tasks/:id (atualizar tarefa)
   - Testar DELETE /tasks/:id (deletar tarefa)
-- [ ] Verificar se as descrições estão claras e os exemplos são adequados
-- [ ] Executar os testes com `npm test` para garantir que nada quebrou
-- [ ] Fazer commit das alterações
-- [ ] Fazer push para o repositório fork
-- [ ] Criar um Pull Request (opcional, para revisão)
+- [X] Verificar se as descrições estão claras e os exemplos são adequados
+- [X] Executar os testes com `npm test` para garantir que nada quebrou
+- [X] Fazer commit das alterações
+- [X] Fazer push para o repositório fork
+- [X] Criar um Pull Request (opcional, para revisão)
 
 
-- [ ] Publicar modificações no repositório com `git push`
+- [X] Publicar modificações no repositório com `git push`
 
 ## 📖 Recursos Úteis
 
