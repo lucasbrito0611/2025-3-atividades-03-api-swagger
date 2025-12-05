@@ -107,16 +107,16 @@ A API possui os seguintes endpoints:
 - [X] Verificar a documentação do DTO no Swagger UI (schema CreateTaskDto)
 
 ### 5️⃣ Documentação do UpdateTaskDto
-- [ ] Abrir o arquivo `src/tasks/dto/update-task.dto.ts`
-- [ ] Importar `@ApiPropertyOptional` do `@nestjs/swagger`
-- [ ] Adicionar `@ApiPropertyOptional()` para o campo `title`:
+- [X] Abrir o arquivo `src/tasks/dto/update-task.dto.ts`
+- [X] Importar `@ApiPropertyOptional` do `@nestjs/swagger`
+- [X] Adicionar `@ApiPropertyOptional()` para o campo `title`:
   - Adicionar description, example
-- [ ] Adicionar `@ApiPropertyOptional()` para o campo `description`:
+- [X] Adicionar `@ApiPropertyOptional()` para o campo `description`:
   - Adicionar description, example
-- [ ] Adicionar `@ApiPropertyOptional()` para o campo `status`:
+- [X] Adicionar `@ApiPropertyOptional()` para o campo `status`:
   - Adicionar enum, description, example
-- [ ] Verificar a documentação do DTO no Swagger UI (schema UpdateTaskDto)
-- [ ] Guardar as modificações com `git commit -m "documentado os DTOs"`
+- [X] Verificar a documentação do DTO no Swagger UI (schema UpdateTaskDto)
+- [X] Guardar as modificações com `git commit -m "documentado os DTOs"`
 
 ### 6️⃣ Documentação do Endpoint Raiz
 - [ ] Abrir o arquivo `src/app.controller.ts`
